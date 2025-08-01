@@ -116,7 +116,7 @@ export default function Projects() {
   return (
     <ReactLenis root>
       <main className="bg-black" ref={container}>
-        <section className="text-white w-full bg-slate-950">
+      <section className="text-white w-full bg-slate-950 pt-20">
           {projects.map((project, i) => {
             const targetScale = 1 - (projects.length - i) * 0.05;
             return (
